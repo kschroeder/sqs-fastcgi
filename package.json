@@ -1,0 +1,13 @@
+{
+  "name": "sqs-fastcgi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/start.js"
+  },
+  "dependencies": {
+    "fastcgi-client": "0.0.x",
+    "sqs-consumer": "3.4.x",
+    "aws-sdk": "2.8.x"
+  }
+}
